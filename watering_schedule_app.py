@@ -23,7 +23,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Configure Gemini API
-GOOGLE_API_KEY = "AIzaSyAfkulwBrObmwlGbCqyc1FKUwU10uT4SKo"
+GOOGLE_API_KEY = ""
 
 try:
     genai.configure(api_key=GOOGLE_API_KEY)
